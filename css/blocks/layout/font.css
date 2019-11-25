@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-LightItalic.woff2') format('woff2'),
+      url('/fonts/Roboto-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Light.woff2') format('woff2'),
+      url('/fonts/Roboto-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Bold.woff2') format('woff2'),
+      url('/fonts/Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'menu-fonts';
+  src:  url('/fonts/menu-fonts.eot?a8j7ml');
+  src:  url('/fonts/menu-fonts.eot?a8j7ml#iefix') format('embedded-opentype'),
+    url('/fonts/menu-fonts.ttf?a8j7ml') format('truetype'),
+    url('/fonts/menu-fonts.woff?a8j7ml') format('woff'),
+    url('/fonts/menu-fonts.svg?a8j7ml#menu-fonts') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon,
+.social-icon {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.icon {
+  font-size: 1.8rem;
+  width: 1.2rem;
+  padding-right: 2rem;
+}
+
+.social-icon {
+  font-size: 1rem;
+  width: 1.9rem;
+}
+
+.icon::before,
+.icon::after,
+.social-icon::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'menu-fonts' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  text-decoration: none;
+  margin: 0;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_plane:before {
+  content: "\e902";
+}
+.icon_reviews:before {
+  content: "\e900";
+}
+.icon_crew:before {
+  content: "\e901";
+}
+.menu-fonts-ico_vk:before {
+  content: "\e903";
+}
+.menu-fonts-ico_fb:before {
+  content: "\e904";
+}
+.menu-fonts-ico_g:before {
+  content: "\e905";
+}
+.menu-fonts-ico_mail:before {
+  content: "\e906";
+}
+.menu-fonts-ico_tw:before {
+  content: "\e907";
+}

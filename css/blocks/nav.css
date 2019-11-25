@@ -1,0 +1,101 @@
+.nav {
+
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+}
+
+.nav__item {
+  display: flex;
+  align-items: center;
+  color: #4b73b5;
+  margin: -1.2rem 0;
+  padding-right: 9.5rem;
+}
+
+.nav__link {
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 0.24rem;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.nav__link_active {
+  color: #221f1f;
+}
+
+.nav__link:hover {
+  color: #000000;
+  transition: 1s;
+}
+
+.nav__text {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-left: 0.4rem;
+}
+
+.nav__item-icon {
+  width: 3rem;
+  color: inherit;
+}
+
+.icon-main {
+  width: 48px; height: 48px;
+  background: url('../../img/css_sprites.png') -78px -10px;
+  transform: scale(0.4);
+}
+
+.icon-reviews {
+  width: 48px; height: 48px;
+  background: url('../../img/css_sprites.png') -78px -78px;
+  transform: scale(0.4);
+}
+
+.icon-team {
+  width: 48px; height: 48px;
+  background: url('../../img/css_sprites.png') -78px -146px;
+  transform: scale(0.4);
+}
+
+.nav__link_active .icon-main {
+  width: 48px; height: 48px;
+  background: url('../../img/css_sprites.png') -146px -10px;
+  transform: scale(0.4);
+}
+
+.nav__link_active .icon-reviews {
+  width: 48px; height: 48px;
+  background: url('../../img/css_sprites.png') -146px -78px;
+  transform: scale(0.4);
+}
+
+.nav__link_active .icon-team {
+  width: 48px; height: 48px;
+  background: url('../../img/css_sprites.png') -146px -146px;
+  transform: scale(0.5);
+}
+
+.nav__link:hover .icon-main {
+  width: 48px; height: 48px;
+  background: url('../../img/css_sprites.png') -10px -10px;
+  transform: scale(0.4);
+}
+
+.nav__link:hover .icon-reviews {
+  width: 48px; height: 48px;
+  background: url('../../img/css_sprites.png') -10px -78px;
+  transform: scale(0.4);
+}
+
+.nav__link:hover .icon-team {
+  width: 48px; height: 48px;
+  background: url('../../img/css_sprites.png') -10px -146px;
+  transform: scale(0.4);
+}

@@ -1,0 +1,17 @@
+.main-content {
+  /* flex-basis: 100rem; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-content: space-between;
+  align-items: flex-start;
+  margin-left: 1rem;
+  flex: 1;
+}
+
+.main-conten__bigpic {
+  width: 115%;
+  height: auto;
+  object-fit: contain;
+  margin: 0.8rem 0;
+}

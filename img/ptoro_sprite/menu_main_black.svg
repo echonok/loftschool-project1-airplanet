@@ -1,0 +1,14 @@
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+ <title>menu_main_black</title>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="50" width="50" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <polygon points="22.8,48 18.7,43.9 38.7,24 18.7,4.1 22.8,0 46.8,24  " id="svg_1"/>
+  <polygon points="10.2,36.6 6.1,32.5 14.6,24 6.1,15.5 10.2,11.4 22.7,24  " id="svg_2"/>
+  <rect height="5.8" width="42.4" y="21.1" id="svg_3"/>
+ </g>
+</svg>

@@ -1,0 +1,135 @@
+.team {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto 3rem;
+}
+
+.team__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 1rem 0 -1rem;
+}
+
+.team__item {
+  padding: 4.1rem 1.2rem 0rem;
+  color: #221f1f;
+  flex: 1 1;
+  flex-basis: calc(100% / 3);
+}
+
+.team__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team__pic-area {
+  display: inline-block;
+  position: relative;
+  width: 16.3rem;
+  height: 16.3rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.team__pic {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay-border {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 16.3rem;
+  height: 16.3rem;
+  border-radius: 50%;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: transparent;
+  border: 3px solid #5a7ab9;
+}
+
+.team__pic-area:hover .overlay-border {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 16rem;
+  height: 16rem;
+  /* border-radius: 50%; */
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008CBA;
+}
+
+.team__pic-area:hover .overlay {
+  opacity: 0.5;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 2.4rem;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.team__desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.team__desc h4,
+.team__desc p,
+.team__desc span {
+  text-align: center;
+}
+
+.team__desc h4,
+.team__desc p {
+  color: #221f1f;
+}
+
+.team__desc span,
+.team__desc p {
+  font-size: 1.4rem;
+}
+
+.team__desc h4 {
+  margin-top: 1.0rem;
+  font-size: 1.8rem;  
+  padding-top: 1rem;
+  font-weight: bold;
+}
+
+.team__desc span {
+  margin-top: 0.5rem;
+  color: #4b73b5;
+  font-weight: bold;
+}
+
+.team__desc p {
+  font-weight: 300;
+  padding-top: 0.7rem;
+  font-weight: 300;
+  margin: 0;
+  line-height: 2.1rem;
+}

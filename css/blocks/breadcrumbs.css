@@ -1,0 +1,32 @@
+.breadcrumbs {
+  margin-top: 4.2rem;
+  margin-bottom: 1.8rem;
+}
+
+.breadcrumbs__list {
+  display: flex;
+}
+
+.breadcrumbs__item {
+  color: #4b73b5;
+}
+
+.breadcrumbs__item::after {
+  content: "/";
+  font-size: 1.4rem;
+}
+
+.breadcrumbs__item--active a {
+  text-decoration: none;
+  color: #221f1f;
+}
+
+.breadcrumbs__item--active::after {
+  display: none;
+}
+
+.breadcrumbs__link {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.4rem;
+}

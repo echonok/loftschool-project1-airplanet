@@ -1,0 +1,16 @@
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style>.cls-1{fill:#1c5bc3;}</style>
+ </defs>
+ <title>menu_main_blue</title>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="50" width="50" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <polygon points="22.81 48 18.73 43.93 38.66 24 18.73 4.07 22.81 0 46.81 24 22.81 48" class="cls-1" id="svg_1"/>
+  <polygon points="10.16 36.57 6.07 32.49 14.56 24 6.07 15.51 10.16 11.43 22.71 24 10.16 36.57" class="cls-1" id="svg_2"/>
+  <rect height="5.76" width="42.35" y="21.12" class="cls-1" id="svg_3"/>
+ </g>
+</svg>

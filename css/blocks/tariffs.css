@@ -1,0 +1,98 @@
+.tariffs {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.tariffs__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.tariffs__item {
+  flex: 1;
+  flex-basis: 25rem;
+  width: 100%;
+  margin-right: 0;
+}
+
+.tariffs__tariff {
+  padding: 2.5rem 2.5rem 2.7rem;
+  color: #221f1f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 0;
+}
+
+.tariffs__best-offer{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 2.8rem;
+}
+
+.tariffs__logo {
+  width: 6.8rem;
+  height: 6.8rem;
+  background-color: #4b73b5;
+  padding: 2rem;
+  border-radius: 50%;
+  margin-bottom: 3.5rem;
+}
+
+.tariffs__title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.1rem;
+  letter-spacing: 0.264rem;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 1.9rem;
+}
+
+.tariffs__description {
+  font-weight: 300;
+  margin: 0 2rem 0.4rem;
+  text-align: left;
+  font-size: 1.8rem;
+  line-height: 1.67;
+}
+
+.tariffs__feature {
+  list-style: none;
+  font-weight: 300;
+  font-size: 1.8rem;
+  margin-left: 1.9rem;
+  line-height: 1.9;
+}
+
+.tariffs__feature::before {
+  content: "•";
+  color: inherit;
+  margin-right: 2rem;
+}
+
+.tariffs__item--active {
+  border: solid 1px #e8e9ed;
+}
+
+.tariffs__price {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 1.1rem;
+}
+
+.tariffs__price-currency {
+  font-size: 3.3rem;
+  letter-spacing: 0.5px;
+}
+
+.tariffs__price-number {
+  font-size: 5.4rem;
+  letter-spacing: -2.5px;
+}

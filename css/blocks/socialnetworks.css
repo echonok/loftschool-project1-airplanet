@@ -1,0 +1,45 @@
+.socialnetworks {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.socialnetworks__text {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #000;
+  padding-bottom: 0.9rem;
+  letter-spacing: normal;
+}
+
+.socialnetworks__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.socialnetworks__item {
+  vertical-align: middle;
+}
+
+.socialnetworks__icon {
+  text-align: center;
+  color: #4b73b5;
+  width: 3rem;
+  /* height: 3rem; */
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.socialnetworks__icon_active {
+  background-color:#ffffff;
+}
+
+.socialnetworks__icon:hover {
+  background-color:#ffffff;
+  transition: 1s;
+}
